@@ -1,0 +1,168 @@
+/*----///////////////   RESPONSIVE CSS //////////////////----*/
+@media screen and (max-width: 1205px){
+    .primari_menu {
+        list-style: none;
+        float: righ;
+        background: #2a2a2a;
+        width: 80%;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 99999;
+        display: none;
+        overflow: auto;
+    }
+    .sub_menu{
+        width: 50%
+    }
+    .mobile_btn{
+        display: block;
+    }
+        .primari_menu {
+        list-style: none;
+        float: righ;
+        background: #2a2a2a;
+        width: 80%;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 99999;
+        display: none;
+    }
+    .primari_menu li {
+        list-style: none;
+        float: none;
+    }
+    .primari_menu a {
+        color: #ecebeb;
+        text-transform: uppercase;
+        font-size: 14px;
+        padding: 9px !important;
+        display: block;
+        text-decoration: none;
+        width: 100%;
+        text-align: center;
+        border-bottom: 1px solid #00000054;;
+    }
+    .primari_menu a:hover {
+        background: black;
+        color: white;
+    }
+    .sub_menu li a{
+        padding: 5px 10px 5px 10px;
+    }
+    
+    
+    
+    
+    
+}
+@media screen and (max-width: 1200px){
+    .display_size{
+        width: 960px;
+    }
+    .overlay_bg_color {
+        width: 91%;
+    }
+    
+    
+}
+@media screen and (max-width: 1024px){
+    .nav_bar{
+        padding: 0px 0px;
+    }
+    .mobile_btn {
+        top: 26%;
+    }
+    .display_size{
+        width: 960px;
+    }
+    .mobile_btn{
+        display: block;
+    }
+    .menu{
+        list-style: none;
+    }
+    .primari_menu {
+        list-style: none;
+        float: righ;
+        background: #2a2a2a;
+        width: 70%;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 99999;
+        display: none;
+    }
+    .primari_menu li {
+        list-style: none;
+        float: none;
+    }
+    .primari_menu a {
+        color: #ecebeb;
+        text-transform: uppercase;
+        font-size: 14px;
+        padding: 9px !important;
+        display: block;
+        text-decoration: none;
+        width: 100%;
+        text-align: center;
+        border-bottom: 1px solid #00000054;;
+    }
+    .primari_menu a:hover {
+        background: black;
+        color: white;
+    }
+    .sub_menu li a{
+        padding: 5px 10px 5px 10px;
+    }
+    .overlay_bg_color {
+        top: -27%;
+    }
+
+    
+}
+@media screen and (max-width: 991px){
+    .count_section{
+        height: auto;
+    }
+    .display_size{
+        width: 720px;
+    }
+    .overlay_bg_color {
+        width: 70%;
+    }
+    
+    
+}
+@media screen and (max-width: 767px){
+    .overlay_bg_color {
+        width: 69%;
+    }
+    .display_size{
+        width: 540px;
+    }
+    .header_top_phone {
+        float: left !important;
+    }
+}
+@media screen and (max-width: 575px){
+    .overlay_bg_color {
+        width: 94%;
+    }
+    .display_size{
+        width: 380px;
+    }
+}
+@media screen and (max-width: 480px){
+    .display_size{
+        width: 300px;
+    }
+}
+@media screen and (max-width: 400px){}
+@media screen and (max-width: 350px){}
+@media screen and (max-width: 300px){}
+/*----///////////////   RESPONSIVE CSS end  //////////////////----*/
